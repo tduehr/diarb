@@ -5,12 +5,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "diarb"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Input/output diary for IRB}
+    gem.description = %Q{Addon for IRB to log command run and their returns to a file. Return values are comments so the diary is valid Ruby. Just cut and paste into another session.}
     gem.email = "td@matasano.com"
     gem.homepage = "http://github.com/tduehr/diarb"
     gem.authors = ["tduehr"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
