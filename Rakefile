@@ -1,3 +1,12 @@
+# 
+#  Rakefile
+#  diarb
+#  
+#  Created by tduehr on 2010-05-12.
+#  Copyright 2010 tduehr.
+#  See LICENSE file for details.
+#
+
 require 'rubygems'
 require 'rake'
 
