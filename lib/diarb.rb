@@ -14,7 +14,7 @@ module Diarb
   LIBPATH = ::File.expand_path(::File.dirname(__FILE__)) + ::File::SEPARATOR
   PATH = ::File.dirname(LIBPATH) + ::File::SEPARATOR
 
-  # require ::File.join(LIBPATH, 'diarb', 'io-method')
+  require ::File.join(LIBPATH, 'diarb', 'io-method')
   require ::File.join(LIBPATH, 'diarb', 'cmdext')
 end
 
