@@ -1,6 +1,27 @@
 = diarb
 
-Description goes here.
+Session diaries for Irb.
+
+== Features:
+
+* Creates logs of *valid* Ruby including both input and output.
+
+== Synopsis:
+
+    require 'diarb'
+    diary_start("file.log.rb")
+    do_things with_stuff
+    # write comments
+    do_other stuff
+    diary_stop
+
+== Requirements:
+
+* Just a willingness to use code that monkey patches irb.
+
+== Install:
+
+* gem install diarb
 
 == Note on Patches/Pull Requests
  
