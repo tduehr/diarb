@@ -8,14 +8,16 @@
 #
 
 require 'irb'
-require './debug-output'
+# require './debug-output'
 
 module Diarb
   LIBPATH = ::File.expand_path(::File.dirname(__FILE__)) + ::File::SEPARATOR
   PATH = ::File.dirname(LIBPATH) + ::File::SEPARATOR
 
-  require ::File.join(LIBPATH, 'diarb', 'io-method')
+  require ::File.join(LIBPATH, 'diarb', 'diary')
+  require ::File.join(LIBPATH, 'diarb', 'context')
+  # require ::File.join(LIBPATH, 'diarb', 'io-method')
   require ::File.join(LIBPATH, 'diarb', 'cmdext')
 end
 
-self.extend(Diarb::CommandExtentions)
+# self.extend(Diarb::CommandExtensions)
